@@ -1,5 +1,8 @@
 # Strapi application
 
+DEV
+    npm run develop
+
 .ENV
     DATABASE_HOST=
     DATABASE_NAME=

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/trazpedidos",
+      "handler": "trazpedido.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trazpedidos/count",
+      "handler": "trazpedido.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/trazpedidos/:id",
+      "handler": "trazpedido.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/trazpedidos",
+      "handler": "trazpedido.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/trazpedidos/:id",
+      "handler": "trazpedido.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/trazpedidos/:id",
+      "handler": "trazpedido.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
